@@ -1,0 +1,325 @@
+/*
+Theme Name: Freeware Pro
+Theme URI: https://themespiral.com/themes/freeware
+Author: Theme Spiral
+Author URI: https://themespiral.com/
+Description: Freeware Pro Extension is a Plugin which is rich in features having all the Premium features that is not available in the free themes Freeware. Freeware Pro Extension version for your theme and get access to more features and customization settings.
+Version: 1.0.1
+License: GNU General Public License version 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: freeware-pro
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Freeware is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.col-1 .column,
+.column.col-one {
+	width: 100%;
+}
+
+.col-sf .column,
+.column.col-seven-five {
+	width: 75%;
+}
+
+.col-2 .column,
+.column.col-two {
+	width: 50%;
+}
+
+.col-3 .column,
+.column.col-three {
+	width: 33.33333333%;
+}
+
+.col-5 .column,
+.column.col-five {
+	width: 20%;
+}
+
+/*--------------------------------------------------------------
+# Sidebar Option
+--------------------------------------------------------------*/
+
+.left-sidebar-template #primary,
+.single-left-sidebar #primary {
+	float: right;
+}
+
+.left-sidebar-template #secondary,
+.single-left-sidebar #secondary {
+	float: left;
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.full-width-template #primary,
+.single-full-width #primary {
+	width: 100%;
+}
+
+.full-width-template #secondary,
+.single-full-width #secondary {
+	display: none;
+}
+
+.left-sidebar-template.full-width #primary,
+.right-sidebar-template.full-width #primary,
+.single-left-sidebar.full-width #primary,
+.single-right-sidebar.full-width #primary  {
+	width: calc(70% - 0px);
+}
+
+.left-sidebar-template.full-width #secondary,
+.right-sidebar-template.full-width #secondary,
+.single-left-sidebar.full-width #secondary,
+.single-right-sidebar.full-width #secondary {
+	display: block;
+}
+
+.right-sidebar-template.left-sidebar #primary,
+.single-right-sidebar.left-sidebar #primary {
+	float: left;
+}
+
+.right-sidebar-template.left-sidebar #secondary,
+.single-right-sidebar.left-sidebar #secondary {
+	float: right;
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Framed Layout
+--------------------------------------------------------------*/
+
+.framed-layout #page {
+	box-shadow: 0 0 16px #ccc;
+	max-width: 1170px;
+	margin: 40px auto;
+	box-shadow: 0px 0px 19px rgba(26,26,26,0.1);
+}
+
+.framed-layout .full-width-banner .banner-wrap,
+.full-width-banner .banner-wrap {
+	margin: 0;
+}
+
+.framed-layout .slide-text-content {
+	padding: 30px;
+}
+
+
+/*--------------------------------------------------------------
+# Social Icon
+--------------------------------------------------------------*/
+.social-links-menu li a[href*="dribbble.com"]:before { content: '\f201'; }
+.social-links-menu li a[href*="flickr.com"]:before { content: '\f211'; }
+.social-links-menu li a[href*="github.com"]:before { content: '\f200' ; }
+.social-links-menu li a[href*="codepen.io"]:before  { content: '\f216'; }
+.social-links-menu li a[href*="digg.com"]:before { content: '\f221'; }
+.social-links-menu li a[href*="paypal.com"]:before  { content: '\f1ed'; }
+.social-links-menu li a[href*="vimeo.com"]:before  { content: '\f27d'; }
+.social-links-menu li a[href*="skype.com"]:before { content: '\f17e'; }
+.social-links-menu li a[href*="reddit.com"]:before { content: '\f281'; }
+.social-links-menu li a[href*="getpocket.com"]:before { content: '\f265'; }
+.social-links-menu li a[href*="tumblr.com"]:before { content: '\f173'; }
+.social-links-menu li a[href*="xing.com"]:before { content: '\f168'; }
+.social-links-menu li a[href*="soundcloud.com"]:before { content: '\f1be'; }
+.social-links-menu li a[href*="tripadvisor.com"]:before { content: '\f262'; }
+.social-links-menu li a[href*="vk.com"]:before { content: '\f189'; }
+.social-links-menu li a[href*="viadeo.com"]:before { content: '\f2a9'; }
+.social-links-menu li a[href*="spotify.com"]:before { content: '\f1bc'; }
+.social-links-menu li a[href*="stumbleupon.com"]:before { content: '\f1a4'; }
+.social-links-menu li a[href*="twitch.tv"]:before { content: '\f1e8'; }
+.social-links-menu li a[href*="wordpress.org"]:before { content: '\f19a'; }
+.social-links-menu li a[href*="wordpress.com"]:before { content: '\f411'; }
+.social-links-menu li a[href*="500px.com"]:before { content: '\f26e'; }
+.social-links-menu li a[href*="blogger.com"]:before { content: '\f37d'; }
+.social-links-menu li a[href*="codepen.io"]:before { content: '\f1cb'; }
+.social-links-menu li a[href*="dropbox.com"]:before { content: '\f16b'; }
+.social-links-menu li a[href*="digg.com"]:before { content: '\f1a6'; }
+.social-links-menu li a[href*="forumbee.com"]:before { content: '\f211'; }
+.social-links-menu li a[href*="last.fm"]:before { content: '\f202'; }
+.social-links-menu li a[href*="mailto"]:before { content: '\f0e0'; }
+.social-links-menu li a[href*="/feed"]:before { content: '\f09e'; }
+.social-links-menu li a[href*="telegram.org"]:before { content: '\f2c6'; }
+.social-links-menu li a[href*="whatsapp.com"]:before { content: '\f232'; }
+.social-links-menu li a[href*="android.com"]:before { content: '\f17b'; }
+.social-links-menu li a[href*="apple.com"]:before { content: '\f179'; }
+
+
+.menu-social-links-container ul > li a[href*="dribbble.com"]:before { content: '\f201'; }
+.menu-social-links-container ul > li a[href*="flickr.com"]:before { content: '\f211'; }
+.menu-social-links-container ul > li a[href*="github.com"]:before { content: '\f200' ; }
+.menu-social-links-container ul > li a[href*="codepen.io"]:before  { content: '\f216'; }
+.menu-social-links-container ul > li a[href*="digg.com"]:before { content: '\f221'; }
+.menu-social-links-container ul > li a[href*="paypal.com"]:before  { content: '\f1ed'; }
+.menu-social-links-container ul > li a[href*="vimeo.com"]:before  { content: '\f27d'; }
+.menu-social-links-container ul > li a[href*="skype.com"]:before { content: '\f17e'; }
+.menu-social-links-container ul > li a[href*="reddit.com"]:before { content: '\f281'; }
+.menu-social-links-container ul > li a[href*="getpocket.com"]:before { content: '\f265'; }
+.menu-social-links-container ul > li a[href*="tumblr.com"]:before { content: '\f173'; }
+.menu-social-links-container ul > li a[href*="xing.com"]:before { content: '\f168'; }
+.menu-social-links-container ul > li a[href*="soundcloud.com"]:before { content: '\f1be'; }
+.menu-social-links-container ul > li a[href*="tripadvisor.com"]:before { content: '\f262'; }
+.menu-social-links-container ul > li a[href*="vk.com"]:before { content: '\f189'; }
+.menu-social-links-container ul > li a[href*="viadeo.com"]:before { content: '\f2a9'; }
+.menu-social-links-container ul > li a[href*="spotify.com"]:before { content: '\f1bc'; }
+.menu-social-links-container ul > li a[href*="stumbleupon.com"]:before { content: '\f1a4'; }
+.menu-social-links-container ul > li a[href*="twitch.tv"]:before { content: '\f1e8'; }
+.menu-social-links-container ul > li a[href*="wordpress.org"]:before { content: '\f19a'; }
+.menu-social-links-container ul > li a[href*="wordpress.com"]:before { content: '\f411'; }
+.menu-social-links-container ul > li a[href*="500px.com"]:before { content: '\f26e'; }
+.menu-social-links-container ul > li a[href*="blogger.com"]:before { content: '\f37d'; }
+.menu-social-links-container ul > li a[href*="codepen.io"]:before { content: '\f1cb'; }
+.menu-social-links-container ul > li a[href*="dropbox.com"]:before { content: '\f16b'; }
+.menu-social-links-container ul > li a[href*="digg.com"]:before { content: '\f1a6'; }
+.menu-social-links-container ul > li a[href*="forumbee.com"]:before { content: '\f211'; }
+.menu-social-links-container ul > li a[href*="last.fm"]:before { content: '\f202'; }
+.menu-social-links-container ul > li a[href*="mailto"]:before { content: '\f0e0'; }
+.menu-social-links-container ul > li a[href*="/feed"]:before { content: '\f09e'; }
+.menu-social-links-container ul > li a[href*="telegram.org"]:before { content: '\f2c6'; }
+.menu-social-links-container ul > li a[href*="whatsapp.com"]:before { content: '\f232'; }
+.menu-social-links-container ul > li a[href*="android.com"]:before { content: '\f17b'; }
+.menu-social-links-container ul > li a[href*="apple.com"]:before { content: '\f179'; }
+
+/*--------------------------------------------------------------
+Banner
+--------------------------------------------------------------*/
+.full-width-banner {
+	background-image: none !important;
+}
+
+.full-width-banner .banner-header {
+	margin: 50px;
+}
+
+.full-width-banner .slide-content {
+	border: none;
+	box-shadow: none;
+	min-height: 400px;
+	margin: 0;
+	border-radius: 0;
+	overflow: visible;
+}
+
+.full-width-banner .slide-thumb {
+	width: 100%;
+}
+
+.full-width-banner .slide-text-wrap {
+	background-color: rgba(255,255,255,0.7);
+	display: inline-block;
+	max-width: 50%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	z-index: 99;
+	bottom: 10%;
+	left: 10%;
+}
+
+/*--------------------------------------------------------------
+No Border on Post & Widgets 
+--------------------------------------------------------------*/
+.no-border-bg #primary .post,
+.no-border-bg #primary .page,
+.no-border-bg #primary .product,
+.no-border-bg .infinite-wrap .post,
+.no-border-bg .infinite-wrap .page,
+.no-border-bg .infinite-wrap .product {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.no-border-bg #primary .sticky {
+	padding: 30px;
+}
+
+.no-border-bg #secondary .widget {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.no-border-bg #secondary.widget-design .widget_text {
+	padding: 25px;
+}
+
+.no-border-bg #secondary .widget-title {
+	margin-left: 25px;
+}
+
+.no-border-bg #secondary.sidebar-custom-design .widget-title {
+	margin-left: 0;
+}
+
+.no-border-bg .post .entry-content .more-link,
+.no-border-bg .page .entry-content .more-link,
+.no-border-bg .product .entry-content .more-link {
+	bottom: 0;
+	
+}
+
+.no-border-bg .sticky .entry-content .more-link {
+	bottom: 35px;
+	right: 30px;
+}
+
+.no-border-bg .posts-navigation .nav-links .nav-previous,
+.no-border-bg .post-navigation .nav-links .nav-previous,
+.no-border-bg .posts-navigation .nav-links .nav-next,
+.no-border-bg .post-navigation .nav-links .nav-next {
+	background-color: transparent;
+	border: none;
+}
+
+.no-border-bg .pagination .nav-links {
+	background-color: transparent;
+	border: none;
+}
+
+/*--------------------------------------------------------------
+# Responsive Web Design Media Queries Pro
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) { 
+
+	.framed-layout .wrap {
+		max-width: 94%;
+		margin: 0 auto;
+	}
+
+	.full-width-banner .banner-wrap {
+		max-width: 100%;
+	}
+
+	.framed-layout #page {
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 767px) { 
+	
+	.full-width-banner .slide-text-wrap {
+		background-color: #fafafa;
+		position: relative;
+		max-width: 100%;
+		width: 100%;
+		bottom: auto;
+		left: auto;
+	}
+
+	.full-width-banner .slide-text-content {
+		padding: 30px;
+	}
+}
